@@ -43,6 +43,11 @@
     color: white;
 }
 
+.menu li a:active {
+    background-color: #88e671;
+    color: white;
+}
+
 .cadastro {
     font-weight: 300;
     font-size: 15px;
@@ -53,6 +58,9 @@
     border: none;
 }
 
+.cadastro:active {
+    background-color: #88e671;
+}
 
 
 
