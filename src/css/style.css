@@ -13,11 +13,11 @@
 .arte {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 }
 
 .logo {
-    width: 42px 45px;
+    width: 45px;
     border-radius: 90px;
 }
 
@@ -36,6 +36,7 @@
 
 .menu li a {
     padding: 10px;
+    transition: 0.1s ease-in-out;
 }
 
 .menu li a:hover {
@@ -56,10 +57,16 @@
     color: white;
     padding: 10px 20px;
     border: none;
+    transition: 0.1s ease-in-out;
+}
+
+.cadastro:hover {
+    background-color: #77f758;
 }
 
 .cadastro:active {
-    background-color: #88e671;
+    background-color: #ccffbf;
+    color: black;
 }
 
 
